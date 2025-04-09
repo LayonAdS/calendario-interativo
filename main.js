@@ -34,6 +34,18 @@ let contadorAzul = 0, contadorVerde = 0, contadorRosa = 0, contadorRoxo = 0;
 
 // loop para verificar o estilo de cada celula e contar quantas tem cor e qual cor
 for(let i=0;i<elementos.length;i++){
+    var estilo = window.getComputedStyle(elementos[i]);
+}
+
+// obtem a cor de fundo atual da celula
+var corEstilo = estilo.backgroundColor;
+
+// verifica a cor e incrementa contador correspondente
+if(corEstilo === "rgb(173, 216, 230)" || corEstilo === "lighblue"){
+    contadorAzul++;
+}else if(corEstilo === "rgb(152,215,152)" || corEstilo === "palegreen"){
+    contadorVerde++;
+}else if(corEstilo === "" || corEstilo === ""){
     
 }
 }
