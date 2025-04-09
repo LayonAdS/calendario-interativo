@@ -29,5 +29,11 @@ td.style.backgroundColor = color;
 
 // elemento para pegar uma celuca da tabela(guardar)
 let elementos = document.querySelectorAll('td');
+// declara e inicializa contadores
+let contadorAzul = 0, contadorVerde = 0, contadorRosa = 0, contadorRoxo = 0;
 
+// loop para verificar o estilo de cada celula e contar quantas tem cor e qual cor
+for(let i=0;i<elementos.length;i++){
+    
+}
 }
